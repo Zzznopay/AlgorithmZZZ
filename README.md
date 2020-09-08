@@ -115,6 +115,31 @@ O(N!)
 2.异或运算满足交换律和结合率
 上面的两个性质用无进位相加来理解就非常的容易
 
+##链表结构
+***
+单向链表节点结构（可以实现范型）
+
+    public class Node{
+        public int value;
+        public Node next;    
+        public Node(int data){
+            value = data;
+        }
+    }
+    
+双向链表节点结构
+
+    public class DoubleNode{
+        public int value;
+        public DoubleNode last;
+        public DoubleNode next;
+        
+        public DoubleNode(int data){
+            value = data;
+        }
+    }
+
+
 
 
 

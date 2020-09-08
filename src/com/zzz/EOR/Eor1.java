@@ -22,7 +22,7 @@ public class Eor1 {
         System.out.println(b);
 
 
-        int[] arr = {3,1,100};
+        int[] arr = {3, 1, 100};
 
         System.out.println(arr[0]);
         System.out.println(arr[2]);
@@ -35,10 +35,10 @@ public class Eor1 {
     }
 
 
-    public static void swap (int[] arr, int i, int j) {
+    public static void swap(int[] arr, int i, int j) {
         // arr[0] = arr[0] ^ arr[0];
-        arr[i]  = arr[i] ^ arr[j];
-        arr[j]  = arr[i] ^ arr[j];
-        arr[i]  = arr[i] ^ arr[j];
+        arr[i] = arr[i] ^ arr[j];
+        arr[j] = arr[i] ^ arr[j];
+        arr[i] = arr[i] ^ arr[j];
     }
 }
