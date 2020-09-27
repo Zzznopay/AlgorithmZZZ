@@ -1,7 +1,7 @@
 package com.zzz.LIST;
 
 /**
- * 给一个定值在链表中找到该值并删除
+ * 给一个定值在单向链表中找到该值并删除
  */
 public class DeleteGivenValue {
     public static class Node {
